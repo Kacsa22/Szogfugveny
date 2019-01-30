@@ -23,7 +23,7 @@
 
 
     <EditText
-        android:id="@+id/bemenetEdit2"
+        android:id="@+id/kimenetEdit"
         android:layout_width="0dp"
         android:layout_height="wrap_content"
         android:layout_marginStart="8dp"
@@ -45,13 +45,13 @@
         android:layout_marginLeft="8dp"
         android:layout_marginTop="8dp"
         android:layout_marginRight="8dp"
+        android:onClick="sin"
         android:text="Sin"
         app:layout_constraintHorizontal_bias="0.0"
         app:layout_constraintHorizontal_weight="1"
         app:layout_constraintLeft_toLeftOf="parent"
         app:layout_constraintRight_toLeftOf="@+id/asinButton"
-        app:layout_constraintTop_toBottomOf="@+id/bemenetEdit"
-        />
+        app:layout_constraintTop_toBottomOf="@+id/bemenetEdit" />
 
     <Button
         android:id="@+id/asinButton"
@@ -59,6 +59,7 @@
         android:layout_height="wrap_content"
         android:layout_marginTop="8dp"
         android:layout_marginRight="8dp"
+        android:onClick="asin"
         android:text="ASIN"
         app:layout_constraintHorizontal_bias="0.0"
         app:layout_constraintHorizontal_weight="1"
@@ -73,13 +74,13 @@
         android:layout_marginLeft="8dp"
         android:layout_marginTop="8dp"
         android:layout_marginRight="8dp"
+        android:onClick="cos"
         android:text="COS"
         app:layout_constraintHorizontal_bias="0.0"
         app:layout_constraintHorizontal_weight="1"
         app:layout_constraintLeft_toLeftOf="parent"
         app:layout_constraintRight_toLeftOf="@+id/acosButton"
-        app:layout_constraintTop_toBottomOf="@+id/sinButton"
-        />
+        app:layout_constraintTop_toBottomOf="@+id/sinButton" />
 
     <Button
         android:id="@+id/acosButton"
@@ -87,6 +88,7 @@
         android:layout_height="wrap_content"
         android:layout_marginTop="8dp"
         android:layout_marginRight="8dp"
+        android:onClick="acos"
         android:text="ACOS"
         app:layout_constraintHorizontal_bias="0.0"
         app:layout_constraintHorizontal_weight="1"
@@ -101,13 +103,13 @@
         android:layout_marginLeft="8dp"
         android:layout_marginTop="8dp"
         android:layout_marginRight="8dp"
+        android:onClick="tan"
         android:text="TAN"
         app:layout_constraintHorizontal_bias="0.0"
         app:layout_constraintHorizontal_weight="1"
         app:layout_constraintLeft_toLeftOf="parent"
         app:layout_constraintRight_toLeftOf="@+id/atanButton"
-        app:layout_constraintTop_toBottomOf="@+id/cosButton"
-        />
+        app:layout_constraintTop_toBottomOf="@+id/cosButton" />
 
     <Button
         android:id="@+id/atanButton"
@@ -115,6 +117,7 @@
         android:layout_height="wrap_content"
         android:layout_marginTop="8dp"
         android:layout_marginRight="8dp"
+        android:onClick="atan"
         android:text="ATAN"
         app:layout_constraintHorizontal_bias="0.0"
         app:layout_constraintHorizontal_weight="1"
@@ -129,13 +132,13 @@
         android:layout_marginLeft="8dp"
         android:layout_marginTop="8dp"
         android:layout_marginRight="8dp"
+        android:onClick="ctg"
         android:text="CTG"
         app:layout_constraintHorizontal_bias="0.0"
         app:layout_constraintHorizontal_weight="1"
         app:layout_constraintLeft_toLeftOf="parent"
         app:layout_constraintRight_toLeftOf="@+id/actgButton"
-        app:layout_constraintTop_toBottomOf="@+id/tanButton"
-        />
+        app:layout_constraintTop_toBottomOf="@+id/tanButton" />
 
     <Button
         android:id="@+id/actgButton"
@@ -143,6 +146,7 @@
         android:layout_height="wrap_content"
         android:layout_marginTop="8dp"
         android:layout_marginRight="8dp"
+        android:onClick="actg"
         android:text="ACTG"
         app:layout_constraintHorizontal_bias="0.0"
         app:layout_constraintHorizontal_weight="1"
